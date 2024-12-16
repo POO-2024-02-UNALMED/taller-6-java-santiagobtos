@@ -24,7 +24,7 @@ public class Fabricante {
 		return this.pais;
 		
 	}
-	public Fabricante fabricaMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 		ArrayList<String> fabricas= new ArrayList<>();
 		for(int i = 0;i < Automovil.vehiculos.size();i++) {
 			Vehiculo cuenta=Automovil.vehiculos.get(i);
